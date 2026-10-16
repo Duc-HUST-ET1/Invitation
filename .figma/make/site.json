@@ -1,0 +1,10 @@
+{
+  "description": "Experience a heartfelt interactive mini-game that invites a girlfriend on a romantic adventure, revealing personal messages and a special date invitation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
