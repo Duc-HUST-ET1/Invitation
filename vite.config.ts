@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => {
   return {
     base: './',
     build: {
+      outDir: 'docs',
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
     },
