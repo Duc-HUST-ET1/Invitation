@@ -48,7 +48,7 @@ export const adventureConfig = {
     },
   ] satisfies Memory[],
   date: "22/10/2026",
-  time: "07:00 PM",
+  time: "07:30 PM",
   venueName: "MOCHI FILM STUDIOS",
   venueAddress: "4/12 Khuat Duy Tien, Thanh Xuan, Ha Noi",
   dateActivity: "PHOTOBOOTH, GAMES, AND A SPECIAL SURPRISE",

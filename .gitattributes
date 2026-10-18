@@ -117,6 +117,12 @@
 *.dylib              filter=lfs diff=lfs merge=lfs -text
 *.a                  filter=lfs diff=lfs merge=lfs -text
 *.lib                filter=lfs diff=lfs merge=lfs -text
+
+# GitHub Pages must receive the actual files, not Git LFS pointer files.
+public/images/*.jpg  -filter -diff -merge -text
+public/music/*.mp3   -filter -diff -merge -text
+docs/images/*.jpg    -filter -diff -merge -text
+docs/music/*.mp3     -filter -diff -merge -text
 *.wasm               filter=lfs diff=lfs merge=lfs -text
 
 # ---------------------------------------------------------------------------
