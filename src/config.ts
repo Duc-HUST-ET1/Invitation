@@ -10,9 +10,9 @@ export type Memory = {
 };
 
 export const adventureConfig = {
-  girlfriendName: "[Vũ Hương Giang]",
-  senderName: "[Bà chã hơm]",
-  welcomeMessage: "I made a little adventure just for you.",
+  girlfriendName: "Vũ Hương Giang",
+  senderName: "Bà chã hơm",
+  welcomeMessage: "JUST FOR YOU BABY.",
   hearts: [
     {
       kicker: "One thing I love about you",
@@ -32,28 +32,28 @@ export const adventureConfig = {
   ] satisfies HeartMessage[],
   memories: [
     {
-      src: "",
-      caption: "One of my favorite days.",
+      src: "./images/memory-1.jpg",
+      caption: "One of my unforgettable days, the day you became my lover.",
       alt: "Add your first favorite photograph here",
     },
     {
-      src: "",
-      caption: "A little moment, a big memory.",
+      src: "./images/memory-2.jpg",
+      caption: "A daily moment together, a big memory we have.",
       alt: "Add a photograph of a meaningful little moment here",
     },
     {
-      src: "",
-      caption: "More memories to come.",
+      src: "./images/memory-3.jpg",
+      caption: "More memories to come through our journey together.",
       alt: "Add another favorite photograph here",
     },
   ] satisfies Memory[],
-  date: "[DATE]",
-  time: "[TIME]",
-  venueName: "[VENUE_NAME]",
-  venueAddress: "[VENUE_ADDRESS]",
-  dateActivity: "[DATE_ACTIVITY]",
+  date: "22/10/2026",
+  time: "07:00 PM",
+  venueName: "MOCHI FILM STUDIOS",
+  venueAddress: "4/12 Khuat Duy Tien, Thanh Xuan, Ha Noi",
+  dateActivity: "PHOTOBOOTH, GAMES, AND A SPECIAL SURPRISE",
   personalNote:
     "I can't promise a perfect day, but I can promise that I'll be very happy to spend it with you.",
-  googleMapsUrl: "",
-  backgroundMusicPath: "",
+  googleMapsUrl: "https://maps.app.goo.gl/pdamxvBEeorM31ux6",
+  backgroundMusicPath: "./music/background.mp3",
 };

@@ -1,5 +1,9 @@
 {
+  "title": "My Invitation",
   "description": "Experience a heartfelt interactive mini-game that invites a girlfriend on a romantic adventure, revealing personal messages and a special date invitation.",
+  "icons": {
+    "icon": "./favicon.svg?v=3"
+  },
   "robots": {
     "index": false
   },
