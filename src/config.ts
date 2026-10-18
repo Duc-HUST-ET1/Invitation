@@ -32,17 +32,17 @@ export const adventureConfig = {
   ] satisfies HeartMessage[],
   memories: [
     {
-      src: "./images/memory-1.jpg",
+      src: "./images/memory-1.jpg?v=2",
       caption: "One of my unforgettable days, the day you became my lover.",
       alt: "Add your first favorite photograph here",
     },
     {
-      src: "./images/memory-2.jpg",
+      src: "./images/memory-2.jpg?v=2",
       caption: "A daily moment together, a big memory we have.",
       alt: "Add a photograph of a meaningful little moment here",
     },
     {
-      src: "./images/memory-3.jpg",
+      src: "./images/memory-3.jpg?v=2",
       caption: "More memories to come through our journey together.",
       alt: "Add another favorite photograph here",
     },
@@ -55,5 +55,5 @@ export const adventureConfig = {
   personalNote:
     "I can't promise a perfect day, but I can promise that I'll be very happy to spend it with you.",
   googleMapsUrl: "https://maps.app.goo.gl/pdamxvBEeorM31ux6",
-  backgroundMusicPath: "./music/background.mp3",
+  backgroundMusicPath: "./music/background.mp3?v=2",
 };
